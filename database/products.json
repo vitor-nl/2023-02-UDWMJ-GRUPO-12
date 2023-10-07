@@ -1,0 +1,111 @@
+[
+    {
+        "id": 0,
+        "name": "Banana",
+        "description": "Uma explosão de sabor tropical!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 0,
+        "unitary_price": 5
+    },
+    {
+        "id": 1,
+        "name": "Maça",
+        "description": "A doçura da natureza em cada mordida!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 0,
+        "unitary_price": 3
+    },
+    {
+        "id": 2,
+        "name": "Morango",
+        "description": "Pequenas joias vermelhas cheias de amor!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 0,
+        "unitary_price": 2
+    },
+    {
+        "id": 3,
+        "name": "Alface",
+        "description": "Frescor e crocância direto da horta!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 1,
+        "unitary_price": 6
+    },
+    {
+        "id": 4,
+        "name": "Alho-poró",
+        "description": "O segredo da culinária que dá sabor a tudo!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 1,
+        "unitary_price": 3
+    },
+    {
+        "id": 5,
+        "name": "Repolho",
+        "description": "Um vegetal versátil para todos os gostos!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 1,
+        "unitary_price": 5
+    },
+    {
+        "id": 6,
+        "name": "Abóbora",
+        "description": "A doçura da abóbora para encantar seu paladar!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 2,
+        "unitary_price": 1
+    },
+    {
+        "id": 7,
+        "name": "Batata Doce",
+        "description": "Nutrição e sabor se unem na batata doce!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 2,
+        "unitary_price": 2
+    },
+    {
+        "id": 8,
+        "name": "Cenoura",
+        "description": "A cenoura que ilumina suas refeições!",
+        "date_fabrication": "01/10/23",
+        "is_active": true,
+        "category_id": 2,
+        "unitary_price": 8
+    },
+
+    {
+        "id": 9,
+        "name": "Pêssego",
+        "description": "Sabor suculento e doce em cada mordida!",
+        "date_fabrication": "01/10/23",
+        "is_active": false,
+        "category_id": 0,
+        "unitary_price": 4
+    },
+    {
+        "id": 10,
+        "name": "Rúcula",
+        "description": "Folhas verdes e picantes para suas saladas!",
+        "date_fabrication": "01/10/23",
+        "is_active": false,
+        "category_id": 1,
+        "unitary_price": 5
+    },
+    {
+        "id": 11,
+        "name": "Brócolis",
+        "description": "Nutrição e sabor se encontram no brócolis!",
+        "date_fabrication": "01/10/23",
+        "is_active": false,
+        "category_id": 2,
+        "unitary_price": 3
+    }
+]
