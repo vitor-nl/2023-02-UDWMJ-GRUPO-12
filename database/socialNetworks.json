@@ -1,0 +1,17 @@
+[
+    {
+      "id": 0,
+      "name": "Facebook",
+      "description": "A maior rede social do mundo, onde você pode conectar-se com amigos e familiares, compartilhar atualizações, fotos e vídeos, e seguir suas páginas e interesses favoritos."
+    },
+    {
+      "id": 1,
+      "name": "Instagram",
+      "description": "Uma plataforma de compartilhamento de fotos e vídeos que permite que você conte sua história visualmente, siga seus amigos e celebridades favoritos e descubra inspiração em imagens incríveis."
+    },
+    {
+      "id": 2,
+      "name": "Linkedin",
+      "description": "A maior rede profissional do mundo, projetada para conectar profissionais, expandir sua rede de contatos, encontrar oportunidades de emprego e compartilhar seu conhecimento e conquistas profissionais."
+    }
+]
