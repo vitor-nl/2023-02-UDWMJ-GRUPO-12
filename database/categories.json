@@ -1,0 +1,18 @@
+[
+    {
+      "id": 0,
+      "name": "Frutas",
+      "description": "Variedade de frutas frescas e sazonais disponíveis para colheita própria."
+    },
+    {
+      "id": 1,
+      "name": "Verduras",
+      "description": "Seleção de verduras frescas e naturais, cultivadas com cuidado."
+    },
+    {
+      "id": 2,
+      "name": "Legumes",
+      "description": "Diversidade de legumes com preços acessíveis para sua alimentação saudável."
+    }
+  ]
+  
