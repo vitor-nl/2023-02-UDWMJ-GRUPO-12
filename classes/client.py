@@ -19,6 +19,6 @@ class Person:
             "address": self.address,
             "phone": self.phone,
             "email": self.email,
-            "social_network_id": self.social_network_id,
+            "social_network_id": self.social_network_id
         }
     
