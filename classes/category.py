@@ -1,8 +1,8 @@
 class Category:
-    def __init__(self, id: int, name: str, description: str) -> None:
-        self.id = id
-        self.name = name
-        self.description = description
+    def __init__(self, object) -> None:
+        self.id = object["id"]
+        self.name = object["name"]
+        self.description = object["description"]
 
     def export(self) -> dict:
         return {
