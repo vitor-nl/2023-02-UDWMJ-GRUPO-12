@@ -1,11 +1,15 @@
-import importlib
+import json
+from classes import category
+from classes import client
+from classes import order
+from classes import product
+from classes import socialNetwork
 
-module = importlib.import_module("./categories.json")
-module = importlib.import_module("./products.json")
-module = importlib.import_module("./socialNetworks.json")
+with open("2023-02-UDWMJ-GRUPO-12\database\categories.json", "r") as categories_json:
+    categories = json.load(categories_json)
 
-categories = module.categories
-products = module.products
-socialNetworks = module.socialNetworks
+with open("2023-02-UDWMJ-GRUPO-12\database\products.json", "r") as products_json:
+    products = json.load(products_json)
 
-print(categories)
+with open("2023-02-UDWMJ-GRUPO-12\database\socialNetworks.json", "r") as socialNetwork_json:
+    socialNetwork = json.load(socialNetwork_json)
