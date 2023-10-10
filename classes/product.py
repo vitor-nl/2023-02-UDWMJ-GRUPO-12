@@ -1,14 +1,13 @@
 class Product:
-    def __init__(self, id: int, name: str, description: str, date_fabrication: str, 
-    is_active: bool, category_id: int, unitary_price: float) -> None:
+    def __init__(self, object) -> None:
     
-        self.id = id
-        self.name = name
-        self.description = description
-        self.date_fabrication = date_fabrication
-        self.is_active = is_active
-        self.category_id = category_id
-        self.unitary_price = unitary_price
+        self.id = object["id"]
+        self.name = object["name"]
+        self.description = object["description"]
+        self.date_fabrication = object["date_fabrication"]
+        self.is_active = object["is_active"]
+        self.category_id = object["category_id"]
+        self.unitary_price = object["unitary_price"]
 
     def export(self) -> dict:
         return {

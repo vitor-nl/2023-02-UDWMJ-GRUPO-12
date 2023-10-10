@@ -1,15 +1,15 @@
 import uuid
 
-class Person:
+class Client:
 
-    def __init__(self, first_name, last_name, address, phone, email, social_network_id=None):
+    def __init__(self, object):
         self.id = uuid.uuid4()
-        self.first_name = first_name
-        self.last_name = last_name
-        self.address = address
-        self.phone = phone
-        self.email = email
-        self.social_network_id = social_network_id
+        self.first_name = object["first_name"]
+        self.last_name = object["last_name"]
+        self.address = object["address"]
+        self.phone = object["phone"]
+        self.email = object["email"]
+        self.social_network_id = object["social_network_id"]
 
     def export(self) -> dict:
         return {
